@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.4.1.3.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Kamera AKses</title>
+</head>
+
+<body>
+    <div class="display-cover">
+        <video autoplay></video>
+        <canvas class="d-none"></canvas>
+
+        <div class="video-options">
+            <select name="" id="" class="custom-select">
+                <option value="environment">Belakang</option>
+                <option value="user">Depan</option>
+            </select>
+        </div>
+
+        <img class="screenshot-image d-none" id="screenshot-image" alt="">
+
+        <div class="controls">
+            <button class="btn btn-danger play" title="Play"><i data-feather="play-circle"></i></button>
+            <button class="btn btn-success pause d-none" title="Pause"><i data-feather="image"></i></button>
+        </div>
+    </div>
+    <p id="keteranganCam"></p>
+
+    <form method="POST" action="upload.php">
+        <div class="col-md-12">
+            <textarea id="signature64" name="signed" style="display: none"></textarea>
+        </div>
+        <button class="btn btn-info d-none" id="kirim">Simpan Foto Ini</button>
+    </form>
+
+
+    <br /><br /><br />
+    Sumber:
+    https://www.digitalocean.com/community/tutorials/front-and-rear-camera-access-with-javascripts-getusermedia-id
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

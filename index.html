@@ -16,28 +16,18 @@
         <video autoplay></video>
         <canvas class="d-none"></canvas>
 
-        <div class="video-options">
-            <select name="" id="" class="custom-select">
-                <option value="environment">Belakang</option>
-                <option value="user">Depan</option>
-            </select>
-        </div>
-
         <img class="screenshot-image d-none" id="screenshot-image" alt="">
 
         <div class="controls">
             <button class="btn btn-danger play" title="Play"><i data-feather="play-circle"></i></button>
             <button class="btn btn-success pause d-none" title="Pause"><i data-feather="image"></i></button>
+            <form method="POST" action="upload.php">
+                <textarea id="signature64" name="signed" style="display: none"></textarea>
+                <button class="btn btn-info d-none" id="kirim">Simpan Foto Ini</button>
+                </form>
         </div>
-    </div>
-    <p id="keteranganCam"></p>
-
-    <form method="POST" action="upload.php">
-        <div class="col-md-12">
-            <textarea id="signature64" name="signed" style="display: none"></textarea>
         </div>
-        <button class="btn btn-info d-none" id="kirim">Simpan Foto Ini</button>
-    </form>
+        <p id="keteranganCam"></p>
 
 
     <br /><br /><br />

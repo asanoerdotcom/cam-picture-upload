@@ -30,3 +30,8 @@ Catatan
 Semua code ini hanya semata untuk belajar. Tidak ada lisensi dan juga tidak ada
 jaminan dapat berjalan langsung. Serta untuk resiko silahkan ditanggung sendiri.
 Belajarlah dengan tekun. Mudah-mudahan InshaAllah berhasil jadi prgrammer Keren.
+
+Demo - Demo
+------------
+
+Demo hanya bisa berjalan di browser adroid / HP, silahkan dicek di link ini =====>>>> https://webdemoku.000.pe/foto/
